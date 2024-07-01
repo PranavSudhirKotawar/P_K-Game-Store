@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg-container{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.nev{
+    height: 8%;
+    width: 100%;
+}
+.in-nev{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(26, 23, 23);
+}
+.list-nev{
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    height: 100%;
+    width: 3%;
+    background-color: white;
+    border-radius: 50px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 90%;
+    width: 100%;
+    background-color: black;
+}
+.list-nev ul li:hover{
+    border: 2px solid white;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.slide-show{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-slide{
+    /* width: 100%; */
+    border-radius: 20px;
+}
+.my-games{
+    height: 120%;
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.game-card{
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.game-img{
+    height: 80%;
+    width: 100%;
+}
+.game-img img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.game-mrp{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.heading{
+    height: 10%;
+    width: 100%;
+    color: white;
+}
